@@ -19,7 +19,7 @@ public class Test {
         Adminservices ad = new Adminservices();
         Clientservices cl = new Clientservices();
 
-      /*  try {
+       try {
             // Add a new Admin
             Admin newAdmin = new Admin("aziz", "aziz", "aziz@gmail.com", "aziz123");
             ad.ajouter(newAdmin);
@@ -38,9 +38,9 @@ public class Test {
         } catch (SQLException e) {
             e.printStackTrace();
             throw new RuntimeException(e);
-        }*/
+        }
 
-      /*  try {
+       try {
             // Add a new Client
             Client newClient = new Client("kaboudi", "aziz", "azizkaboudi1@gmail.com", "aziz123", "kaboudi", "tunis", 50082878, new Date(System.currentTimeMillis()));
             cl.ajouter(newClient);
@@ -88,7 +88,7 @@ public class Test {
         } catch (SQLException e) {
             e.printStackTrace();
             throw new RuntimeException(e);
-        }*/
+        }
 
 
         LivreurService ls = new LivreurService();
